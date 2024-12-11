@@ -1,0 +1,35 @@
+.shopocat {
+    background-image: url(/public/img/shopocat.png);
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: none; */
+
+}
+
+.epmty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.2px;
+    text-align: left;
+
+}
+
+.info {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.98px;
+    text-align: center;
+
+}

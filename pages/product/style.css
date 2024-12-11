@@ -1,0 +1,214 @@
+.product_div {
+    margin: 0 auto;
+    width: 1200px;
+    /* background-color: brown; */
+    height: 90vh;
+    display: flex;
+    gap: 35px;
+}
+
+.product_info {
+    width: 70%;
+    /* background-color: orange; */
+}
+
+.sidebar {
+    width: 30%;
+    /* background-color: lightblue;; */
+}
+
+.purchase_sum_div{
+    /* background-color: green; */
+    border-radius: 30px;
+    margin-top: 55px;
+    
+    border: 1px solid rgba(54, 55, 64, .2);;
+}
+
+.product_imgs {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    /* back ground-color: red; */
+}
+
+.vertical_imgs {
+    width: 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+}
+
+.vertical_imgs img {
+    height: 100px;
+}
+
+.horizontal_imgs {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+}
+
+.purchase_sum {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 18px;
+    gap: 15px;
+}
+
+.price_num {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.discount_price {
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.discount_percentage {
+    margin-top: 5px;
+    margin-left: 18px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+}
+
+.action_btns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+
+.cart {
+    font-size: 18px;
+    color: white;
+    height: 35px;
+    border: none;
+    background-color: #7000ff;
+    border-radius: 10px;
+}
+
+.favorite:hover {
+    background-color: #d0d3d9;
+}
+
+.favorite {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e6e8ed;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite img{
+    width: 18px;
+    height: 18px;
+}
+
+.cart:hover {
+    background-color: #7f4dff;
+}
+
+.check_icon{
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://uzum.uz/static/img/icons/checkmark.svg);
+}
+
+.remaining_div{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    margin-top: 15px;
+    gap: 10px;
+    padding-bottom: 20px;   
+}
+
+.first_line{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.first_line b, .second_line b, .third_line b{
+    font-size: 14px;
+}
+
+.first_line span{
+    font-size: 12px;
+    background-color: #7000ff;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0 7px;
+}
+
+.banner p,  .second_line p ,.third_line p {
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 14px;
+    padding-left: 15px;
+    
+}
+
+.second_line p{
+    padding-top: 5px;   
+}
+
+.second_line b, .third_line b{
+    padding-left: 15px;
+}
+.banner{
+    margin-top:  30px;
+    border: 1px solid rgba(54, 55, 64, .2);;
+    border-radius: 30px;
+
+}
+.banner_line{
+    margin: 15px;
+    color: black;
+}
+
+.third_line a{
+    text-decoration: none;
+}
+
+.third_line p{
+    padding-bottom: 20px;
+}
+
+.payment_icons{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.u_bank, .u_nasiya, .uzcard, .humo, .visa, .mastercard, .cash{
+    width: 41px;
+    height: 41px;
+    background-size: contain;
+    /* background-image: url(/public/icons/u_bank.svg); */
+}
+
+.reviews{
+    margin-bottom: 15px;
+}
